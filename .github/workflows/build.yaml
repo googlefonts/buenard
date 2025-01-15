@@ -15,7 +15,7 @@ jobs:
     - name: Install sys tools/deps
       run: |
         sudo apt-get update
-        sudo apt-get install ttfautohint
+        sudo apt-get install ttfautohint libcairo2-dev python3-cairo-dev pkg-config python3-dev
         sudo snap install yq
     - uses: actions/cache@v4
       with:
@@ -52,7 +52,7 @@ jobs:
     - name: setup site
       run: cp scripts/index.html out/index.html
     - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
+      uses: peaceiris/actions-gh-pages@v4
       if: ${{ github.ref == 'refs/heads/main' }}
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
