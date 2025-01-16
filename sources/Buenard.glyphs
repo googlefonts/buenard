@@ -8,7 +8,7 @@ DisplayStrings = (
 "ĺÍ",
 "◌",
 "\"Y🪝=ßhing2T™",
-"ˆaẩ"
+"[o]"
 );
 axes = (
 {
@@ -2110,7 +2110,7 @@ unicode = 268;
 },
 {
 glyphname = Ccedilla;
-lastChange = "2024-05-16 18:47:01 +0000";
+lastChange = "2025-01-16 11:32:32 +0000";
 layers = (
 {
 layerId = "619f1a1e-fd92-11ee-b280-8aa624eb3053";
@@ -2119,11 +2119,11 @@ shapes = (
 ref = C;
 },
 {
-pos = (660,0);
-ref = cedilla;
+pos = (216,0);
+ref = cedillacomb;
 }
 );
-width = 982;
+width = 660;
 },
 {
 layerId = "66e3d46a-fd92-11ee-8244-8aa624eb3053";
@@ -2136,7 +2136,7 @@ ref = C;
 {
 alignment = -1;
 pos = (196,0);
-ref = cedilla;
+ref = cedillacomb;
 }
 );
 width = 660;
@@ -16839,7 +16839,7 @@ unicode = 269;
 },
 {
 glyphname = ccedilla;
-lastChange = "2024-05-16 18:47:01 +0000";
+lastChange = "2025-01-16 11:32:16 +0000";
 layers = (
 {
 layerId = "619f1a1e-fd92-11ee-b280-8aa624eb3053";
@@ -16848,11 +16848,11 @@ shapes = (
 ref = c;
 },
 {
-pos = (435,0);
-ref = cedilla;
+pos = (73,0);
+ref = cedillacomb;
 }
 );
-width = 757;
+width = 435;
 },
 {
 layerId = "66e3d46a-fd92-11ee-8244-8aa624eb3053";
@@ -16861,11 +16861,11 @@ shapes = (
 ref = c;
 },
 {
-pos = (437,0);
-ref = cedilla;
+pos = (66,0);
+ref = cedillacomb;
 }
 );
-width = 759;
+width = 437;
 }
 );
 unicode = 231;
@@ -21318,7 +21318,7 @@ unicode = 314;
 },
 {
 glyphname = lcaron;
-lastChange = "2024-04-29 12:04:15 +0000";
+lastChange = "2025-01-16 11:33:14 +0000";
 layers = (
 {
 background = {
@@ -21406,7 +21406,7 @@ pos = (182,760);
 ref = commaaccentcomb;
 }
 );
-width = 284;
+width = 400;
 },
 {
 background = {
@@ -21478,6 +21478,7 @@ nodes = (
 layerId = "66e3d46a-fd92-11ee-8244-8aa624eb3053";
 shapes = (
 {
+alignment = -1;
 ref = l;
 },
 {
@@ -21486,9 +21487,10 @@ pos = (224,754);
 ref = commaaccentcomb;
 }
 );
-width = 298;
+width = 429;
 }
 );
+metricRight = "=commaaccentcomb";
 unicode = 318;
 },
 {
@@ -34267,7 +34269,7 @@ unicode = 91;
 },
 {
 glyphname = bracketright;
-lastChange = "2024-04-18 15:24:25 +0000";
+lastChange = "2025-01-16 11:33:56 +0000";
 layers = (
 {
 layerId = "619f1a1e-fd92-11ee-b280-8aa624eb3053";
@@ -34275,18 +34277,18 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(309,-156,l),
-(309,650,l),
-(112,650,l),
-(112,595,l),
-(237,595,l),
-(237,-101,l),
-(112,-101,l),
-(112,-156,l)
+(216,-156,l),
+(216,650,l),
+(19,650,l),
+(19,595,l),
+(144,595,l),
+(144,-101,l),
+(19,-101,l),
+(19,-156,l)
 );
 }
 );
-width = 327;
+width = 328;
 },
 {
 layerId = "66e3d46a-fd92-11ee-8244-8aa624eb3053";
