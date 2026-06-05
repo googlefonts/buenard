@@ -1,15 +1,7 @@
 {
 .appVersion = "3217";
 .formatVersion = 3;
-DisplayStrings = (
-"ù",
-"A˛",
-" ̊",
-"ĺÍ",
-"◌",
-"\"Y🪝=ßhing2T™",
-"[o]"
-);
+DisplayStrings = ("ù", "A˛", " ̊", "ĺÍ", "◌", "\"Y🪝=ßhing2T™", "[o]");
 axes = (
 {
 name = Weight;
@@ -30,8 +22,7 @@ value = 1;
 },
 {
 name = fsType;
-value = (
-);
+value = ();
 }
 );
 date = "2024-04-18 15:46:03 +0000";
@@ -54,9 +45,7 @@ tag = ccmp;
 );
 fontMaster = (
 {
-axesValues = (
-400
-);
+axesValues = (400);
 customParameters = (
 {
 name = hheaAscender;
@@ -103,18 +92,16 @@ Location = 400;
 id = "619f1a1e-fd92-11ee-b280-8aa624eb3053";
 metricValues = (
 {
-pos = 702;
+pos = 720;
 },
 {
-pos = -244;
+pos = -250;
 }
 );
 name = Regular;
 },
 {
-axesValues = (
-700
-);
+axesValues = (700);
 customParameters = (
 {
 name = hheaAscender;
@@ -42761,9 +42748,7 @@ width = 298;
 );
 instances = (
 {
-axesValues = (
-400
-);
+axesValues = (400);
 customParameters = (
 {
 name = "Axis Location";
@@ -42775,15 +42760,10 @@ Location = 400;
 );
 }
 );
-instanceInterpolations = {
-"619f1a1e-fd92-11ee-b280-8aa624eb3053" = 1;
-};
 name = Regular;
 },
 {
-axesValues = (
-488
-);
+axesValues = (488);
 customParameters = (
 {
 name = "Axis Location";
@@ -42795,17 +42775,11 @@ Location = 500;
 );
 }
 );
-instanceInterpolations = {
-"619f1a1e-fd92-11ee-b280-8aa624eb3053" = 0.70667;
-"66e3d46a-fd92-11ee-8244-8aa624eb3053" = 0.29333;
-};
 name = Medium;
 weightClass = 500;
 },
 {
-axesValues = (
-594
-);
+axesValues = (594);
 customParameters = (
 {
 name = "Axis Location";
@@ -42817,17 +42791,11 @@ Location = 600;
 );
 }
 );
-instanceInterpolations = {
-"619f1a1e-fd92-11ee-b280-8aa624eb3053" = 0.35333;
-"66e3d46a-fd92-11ee-8244-8aa624eb3053" = 0.64667;
-};
 name = SemiBold;
 weightClass = 600;
 },
 {
-axesValues = (
-700
-);
+axesValues = (700);
 customParameters = (
 {
 name = "Axis Location";
@@ -42839,9 +42807,6 @@ Location = 700;
 );
 }
 );
-instanceInterpolations = {
-"66e3d46a-fd92-11ee-8244-8aa624eb3053" = 1;
-};
 isBold = 1;
 name = Bold;
 weightClass = 700;
